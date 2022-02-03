@@ -1,7 +1,7 @@
 # Linux_commands
 Useful Linux commands
 
-## File Commands
+### File Commands
 | Command                 | Result                              |
 | :---------------------: | :-----------------------------------|
 | ls                      | directory listing |
@@ -24,3 +24,12 @@ Useful Linux commands
 | head log.txt            | output first 10 lines of the file |
 | tail log.txt            | output last 10 lines of the file |
 | tail -f log.txt         | output contents of the file as it grows |
+
+### SSH
+
+| Command                     | Result                              |
+| :-------------------------: | :-----------------------------------|
+| ssh user@server_ip          | connect to server_ip host as user |
+| ssh -p 8888 user@ server_ip | connect to server_ip host as user using port 8888 |
+| ssh -D 8889 user@ server_ip | connect to server_ip host as user using bind port 8889 |
+
