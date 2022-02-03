@@ -39,3 +39,9 @@ Useful Linux commands
 | ./install    | run the install script  |
 | make         | ---                     |
 | make install | ---                     |
+
+### NETWORK
+| Command          | Result                   |
+| :--------------: | :----------------------- |
+| ping host        | ping host                |
+| whois google.com | get whois for google.com |
