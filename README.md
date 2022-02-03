@@ -36,6 +36,6 @@ Useful Linux commands
 ### INSTALLATION
 | Command      | Result                  |
 | :----------: | :-----------------------|
-| ./install    | reun the install script |
+| ./install    | run the install script  |
 | make         | ---                     |
 | make install | ---                     |
