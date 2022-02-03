@@ -33,3 +33,9 @@ Useful Linux commands
 | ssh -p 8888 user@ server_ip | connect to server_ip host as user using port 8888 |
 | ssh -D 8889 user@ server_ip | connect to server_ip host as user using bind port 8889 |
 
+### INSTALLATION
+| Command      | Result                  |
+| :----------: | :-----------------------|
+| ./install    | reun the install script |
+| make         | ---                     |
+| make install | ---                     |
