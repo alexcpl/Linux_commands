@@ -41,7 +41,40 @@ Useful Linux commands
 | make install | ---                     |
 
 ### NETWORK
-| Command          | Result                   |
-| :--------------: | :----------------------- |
-| ping host        | ping host                |
-| whois google.com | get whois for google.com |
+| Command            | Result                    |
+| :----------------: | :------------------------ |
+| ping host          | ping host                 |
+| whois google.com   | get whois for google.com  |
+| dig google.com     | get DNS for google.com    |
+| dig -x 192.168.1.1 | reverse lookup host       |
+| wget file          | download file             |
+| wget -c file       | continue stopped download |
+| wget -r url        | recursively download file from URL |
+
+### SYSTEM INFO
+
+| Command            | Result                    |
+| :----------------: | :------------------------ |
+| date               | show current date/time |
+| cal                | show this month calendar |
+| uptime             | show the system uptime |
+| w                  | display who is online |
+| whoami             | display who are you logged in as |
+| uname -a           | show kwenal config |
+| cat /proc/cpuinfo  | show cpu info |
+| cat /proc/meminfo  | show memory information |
+| man command        | show manual for command |
+| df                 | show disk usage |
+| du                 | show directory space usage |
+| du -sh             | show directory usage in human readable size unit |
+| free               | show memory and swap usage |
+| whereis app        | display possible location of the app |
+| which app          | display which app will be run by default |
+
+### SEARCH
+
+| Command                 | Result                                |
+| :---------------------: | :------------------------------------ |
+| grep pattern file.txt   | search for pattern in file.txt        |
+| grep -r pattern dir     | search recursively for pattern in dir |
+| command \| grep pattern | search the pattern in the output of the command |
