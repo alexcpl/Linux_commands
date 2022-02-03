@@ -17,3 +17,10 @@ Useful Linux commands
 | cp file1 file2          | copy file1 and name it file2 |
 | mv file1 file2          | rename file1 to file2 |
 | ln -s file ~/link       | create symbolic link ~/link -> file |
+| touch note.txt          | create or update note.txt |
+| cat > log.txt           | place standard input into log.txt |
+| more log.txt            | output the contents of the file |
+| less log.txt            | output the contents of the file |
+| head log.txt            | output first 10 lines of the file |
+| tail log.txt            | output last 10 lines of the file |
+| tail -f log.txt         | output contents of the file as it grows |
