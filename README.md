@@ -72,9 +72,32 @@ Useful Linux commands
 | which app          | display which app will be run by default |
 
 ### SEARCH
-
 | Command                 | Result                                |
 | :---------------------: | :------------------------------------ |
 | grep pattern file.txt   | search for pattern in file.txt        |
 | grep -r pattern dir     | search recursively for pattern in dir |
 | command \| grep pattern | search the pattern in the output of the command |
+| locate file             | find all instances of file |
+
+### PROCESS MANAGEMENT
+| Command      | Result                                |
+| :----------: | :------------------------------------ |
+| ps           | display currently active processes |
+| ps aux       | display currently active processes |
+| kill pid     | kill process with pid 'pid' |
+| killall proc | kill all processes name proc |
+| bg           | lists stopped/background jobs, resume stopped job in the background |
+| fg           | bring most recent job to foreground |
+| fg n         | brings jobs n to foreground |
+
+### FILE PREMISSIONS
+chmod octal file - change permission of file
+
+4 - read (r)
+2 - write (w)
+1 - execute (x)
+
+order: owner/group/world
+eg:
+chomd 777 - rwx for exeryone
+chmod 755 - rw for owner, rx for group and world
