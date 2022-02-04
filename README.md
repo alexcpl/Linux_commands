@@ -91,13 +91,48 @@ Useful Linux commands
 | fg n         | brings jobs n to foreground |
 
 ### FILE PREMISSIONS
-chmod octal file - change permission of file
+chmod octal file - change permission of file<br>
 
-4 - read (r)
-2 - write (w)
-1 - execute (x)
+4 - read (r)<br>
+2 - write (w)<br>
+1 - execute (x)<br>
 
-order: owner/group/world
-eg:
-chomd 777 - rwx for exeryone
-chmod 755 - rw for owner, rx for group and world
+order: owner/group/world<br>
+eg:<br>
+chomd 777 - rwx for exeryone<br>
+chmod 755 - rw for owner, rx for group and world<br>
+
+### COMPRESSION
+| Command                  | Result                                |
+| :----------------------: | :------------------------------------ |
+| tar cf file.tar file.jpg | tar file.jpg into file.tar |
+| tar xf file.tar          | untar into current directory |
+| tar tf file.tar          | show contents of archive |
+| tar -cvfz ~/Desktop/target.tar.gz folder_to_compress/ | tar and gzip folder_to_compress to target.tar.gz |
+| tar xvf target.tar.gz    | unzip and untar target.tar.gz into current directory |
+
+tar flags:<br>
+c - create archive<br>
+t - table of contents<br>
+x - extract<br>
+f - specifies filename<br>
+z - use zip/gzip<br>
+j - bzip2 compression<br>
+k - do not overwrite<br>
+T - files from file<br>
+w - ask for confirmation<br>
+v - verbose<br>
+
+### SHORTCUTS
+| Command                  | Result                                |
+| :----------------------: | :------------------------------------ |
+| ctrl+c | halt current command |
+| ctrl+z | stop current command |
+| fg     | resume stopped command in forground |
+| bg     | resume stopped command in background |
+| ctrl+d | log out of current session |
+| ctrl+w | erases one word in current line |
+| ctrl+u | erases whole line |
+| ctrl+r | reverse lookup of pervious commands |
+| !!     | repeat last command |
+| exit   | log out of current session |
