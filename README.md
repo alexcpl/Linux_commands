@@ -31,6 +31,9 @@ Useful Linux commands
 | :--------------------------------------------------: | :-----------------------------------------------|
 | useradd -m username                                  | Create a user name username with home directory |
 | useradd -m -p $(openssl passwd -1 password) username | Create user with password password              |
+| adduser newuser                                      | Create newuser with on screen prompt            |
+| usermod -aG sudo newuser                             | Add newuser to sudo group                       |
+| group newuser                                        | List newuser group                              |
 | userdel -r username                                  | Delete username user and user's home directory  |
 * -m The user’s home directory will be created if it does not exist.
 * -p Password goes here.
