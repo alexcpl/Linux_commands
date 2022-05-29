@@ -37,7 +37,7 @@ Useful Linux commands
 | deluser newuser sudo                                 | Remove newuser from sudo group                  |
 | userdel -r username                                  | Delete username user and user's home directory  |
 * -m The user’s home directory will be created if it does not exist.
-* -p Password goes here.
+* -p Create user with password provided.
 * username Create this user to the system.
 
 ### SSH
