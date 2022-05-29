@@ -25,6 +25,15 @@ Useful Linux commands
 | tail log.txt            | output last 10 lines of the file |
 | tail -f log.txt         | output contents of the file as it grows |
 
+### Add Users
+
+| Command                                    | Result                                          |
+| :----------------------------------------: | :-----------------------------------------------|
+| useradd -m -p PasswordHere username        | Create a user name username with home directory |
+* -m The user’s home directory will be created if it does not exist.
+* -p Password goes here.
+* username Create this user to the system.
+
 ### SSH
 
 | Command                     | Result                              |
