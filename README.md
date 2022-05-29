@@ -27,10 +27,11 @@ Useful Linux commands
 
 ### Add Users
 
-| Command                                    | Result                                          |
-| :----------------------------------------: | :-----------------------------------------------|
-| useradd -m -p PasswordHere username        | Create a user name username with home directory |
-| userdel -r username                        | Delete username user and user's home directory  |
+| Command                                              | Result                                          |
+| :--------------------------------------------------: | :-----------------------------------------------|
+| useradd -m username                                  | Create a user name username with home directory |
+| useradd -m -p $(openssl passwd -1 password) username | Create user with password password              |
+| userdel -r username                                  | Delete username user and user's home directory  |
 * -m The user’s home directory will be created if it does not exist.
 * -p Password goes here.
 * username Create this user to the system.
