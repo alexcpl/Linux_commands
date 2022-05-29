@@ -126,6 +126,8 @@ v - verbose<br>
 ### SHORTCUTS
 | Command                  | Result                                |
 | :----------------------: | :------------------------------------ |
+| ctrl+a | Move to the start of the line. |
+| ctrl+e | Move to the end of the line. |
 | ctrl+c | halt current command |
 | ctrl+z | stop current command |
 | fg     | resume stopped command in forground |
@@ -136,3 +138,4 @@ v - verbose<br>
 | ctrl+r | reverse lookup of pervious commands |
 | !!     | repeat last command |
 | exit   | log out of current session |
+
