@@ -33,7 +33,7 @@ Useful Linux commands
 | useradd -m -p $(openssl passwd -1 password) username | Create user with password password              |
 | adduser newuser                                      | Create newuser with on screen prompt            |
 | usermod -aG sudo newuser                             | Add newuser to sudo group                       |
-| groups newuser                                       | List newuser group                              |
+| groups newuser                                       | List newuser's group                              |
 | deluser newuser sudo                                 | Remove newuser from sudo group                  |
 | userdel -r username                                  | Delete username user and user's home directory  |
 * -m The user’s home directory will be created if it does not exist.
