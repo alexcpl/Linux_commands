@@ -3,7 +3,7 @@ Useful Linux commands
 
 ### File Commands
 | Command                 | Result                              |
-| :---------------------: | :-----------------------------------|
+| :---------------------- | :-----------------------------------|
 | ls                      | directory listing |
 | ls -al                  | formatted listing with hidden files |
 | cd directory            | change directory to directory |
@@ -28,7 +28,7 @@ Useful Linux commands
 ### Add Users
 
 | Command                                              | Result                                          |
-| :--------------------------------------------------: | :-----------------------------------------------|
+| :--------------------------------------------------- | :-----------------------------------------------|
 | useradd -m username                                  | Create a user name username with home directory |
 | useradd -m -p $(openssl passwd -1 password) username | Create user with password password              |
 | adduser newuser                                      | Create newuser with on screen prompt            |
@@ -43,21 +43,21 @@ Useful Linux commands
 ### SSH
 
 | Command                     | Result                              |
-| :-------------------------: | :-----------------------------------|
+| :-------------------------- | :-----------------------------------|
 | ssh user@server_ip          | connect to server_ip host as user |
 | ssh -p 8888 user@ server_ip | connect to server_ip host as user using port 8888 |
 | ssh -D 8889 user@ server_ip | connect to server_ip host as user using bind port 8889 |
 
 ### INSTALLATION
 | Command      | Result                  |
-| :----------: | :-----------------------|
+| :----------- | :-----------------------|
 | ./install    | run the install script  |
 | make         | ---                     |
 | make install | ---                     |
 
 ### NETWORK
 | Command            | Result                    |
-| :----------------: | :------------------------ |
+| :----------------- | :------------------------ |
 | ping host          | ping host                 |
 | whois google.com   | get whois for google.com  |
 | dig google.com     | get DNS for google.com    |
@@ -69,7 +69,7 @@ Useful Linux commands
 ### SYSTEM INFO
 
 | Command            | Result                    |
-| :----------------: | :------------------------ |
+| :----------------- | :------------------------ |
 | date               | show current date/time |
 | cal                | show this month calendar |
 | uptime             | show the system uptime |
@@ -88,7 +88,7 @@ Useful Linux commands
 
 ### SEARCH
 | Command                 | Result                                |
-| :---------------------: | :------------------------------------ |
+| :---------------------- | :------------------------------------ |
 | grep pattern file.txt   | search for pattern in file.txt        |
 | grep -r pattern dir     | search recursively for pattern in dir |
 | command \| grep pattern | search the pattern in the output of the command |
@@ -96,7 +96,7 @@ Useful Linux commands
 
 ### PROCESS MANAGEMENT
 | Command      | Result                                |
-| :----------: | :------------------------------------ |
+| :----------- | :------------------------------------ |
 | ps           | display currently active processes |
 | ps aux       | display currently active processes |
 | kill pid     | kill process with pid 'pid' |
@@ -119,7 +119,7 @@ chmod 755 - rw for owner, rx for group and world<br>
 
 ### COMPRESSION
 | Command                  | Result                                |
-| :----------------------: | :------------------------------------ |
+| :----------------------- | :------------------------------------ |
 | tar cf file.tar file.jpg | tar file.jpg into file.tar |
 | tar xf file.tar          | untar into current directory |
 | tar tf file.tar          | show contents of archive |
@@ -140,7 +140,7 @@ v - verbose<br>
 
 ### SHORTCUTS
 | Command                  | Result                                |
-| :----------------------: | :------------------------------------ |
+| :----------------------- | :------------------------------------ |
 | ctrl+a | Move to the start of the line. |
 | ctrl+e | Move to the end of the line. |
 | ctrl+c | halt current command |
